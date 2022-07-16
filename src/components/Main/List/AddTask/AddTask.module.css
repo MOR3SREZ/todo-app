@@ -1,0 +1,15 @@
+.tasks {
+  margin-top: 1rem;
+  width: 100%;
+}
+.tasks input {
+  padding: 0.5rem;
+  margin: 0rem 0.5rem;
+  width: 50%;
+}
+.tasks button {
+  background-color: cadetblue;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: 2px solid cadetblue;
+}

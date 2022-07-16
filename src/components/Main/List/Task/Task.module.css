@@ -1,0 +1,75 @@
+.task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin: 0.5rem 0rem 1rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.title {
+  display: block;
+  width: 80%;
+  height: 100%;
+}
+.editInput .task-done {
+  display: block;
+  width: 80%;
+  height: 100%;
+  background-color: rgb(191, 238, 121);
+}
+.editInput .task-un-done {
+  display: block;
+  width: 80%;
+  height: 100%;
+  background-color: rgb(247, 112, 112);
+  text-decoration: line-through;
+}
+
+.icons {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons span {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.editInput {
+  height: 100%;
+  width: 100%;
+}
+.editInput input {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.icons .done:hover,
+.done.complete {
+  background-color: rgb(191, 238, 121);
+  color: white;
+}
+
+.icons .close:hover,
+.close.undone {
+  background-color: rgb(247, 112, 112);
+  color: white;
+}
+
+.icons .edit:hover {
+  background-color: orange;
+  color: white;
+}
+.icons .delete:hover {
+  background-color: black;
+  color: white;
+}

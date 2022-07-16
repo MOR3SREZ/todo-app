@@ -1,0 +1,7 @@
+.lists {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 80%;
+  padding: 2rem;
+}
